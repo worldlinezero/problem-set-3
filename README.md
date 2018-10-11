@@ -45,9 +45,10 @@ git remote add pset3 git@github.com:YOUR-USERNAME/problem-set-3.git
 ```
 12. Now, pull down all of the files and folders in your `problem-set-3` directory into your newly created `problem-set-3.5` directory.
 ```
-git pull pset3 master
+git pull pset3 master --allow-unrelated-histories
 ```
-13. You can now remove the `pset3` remote. You won't need to use it again.
+13. You'll need to resolve a conflict by manually merging the `README.md` files from `problem-set-3` and `problem-set-3.5`. You can do this directly in [Atom](https://atom.io/) by clicking the `Use me` button associated with the `README.md` file of the `problem-set-3.5` repository. Make sure you save it afterwards.
+14. You can now remove the `pset3` remote. You won't need to use it again.
 ```
 git remote remove pset3
 ```
