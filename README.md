@@ -65,8 +65,9 @@ More specifically, your website must include and incorporate the following featu
 * At least 3 different [combinators](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors#Combinators).
 * At least 3 different [pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes).
 * A `background-color` for each page.
+* A `font`, `font-size`, `font-weight`, and `color` for at least 1 text element per page.
 * A `:hover` effect for each link (this does not count towards the [pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) requirement).
-* Appropriate element spacing using `margin` and/or `padding`.
+* Appropriate element spacing using `margin` and/or `padding` (this is understandbly subjective).
 * A `border` around at least 1 image per page.
    - 1 of your `border`s must incorporate rounded corners.
 
@@ -75,24 +76,23 @@ To avoid confusion, your directory structure must match the following. If someth
 ```
 problem-set-3/
    images/
-      myimage1.png
-      subfolder/
-         myimage2.png
+      kitchen.png
+      meals/
+         pasta.png
    index.html
-   mysubtopic1.html
-   mysubtopic2.html
-   mysubtopic3.html
+   recipes.html
+   ingredients.html
+   suppliers.html
    README.md
    styles/
+      yourfile.css
 ```
 
-Of course, your filenames will be different than mine. They are alphabetized, so they will likely appear in a different order, too. The `subfolder` inside of the `images` folder is optional. You might find it useful to further categorize your pictures, but it is not required. The image files inside of the `images` and `subfolder` folders are examples. Yours, of course, will be named differently.
+Of course, your filenames will be different than mine. They are alphabetized, so they will likely appear in a different order, too. The `meals/` subfolder inside of the `images/` folder is optional. You might find it useful to further categorize your pictures, but it is not required. The image files inside of the `images/` and `meals/` folders are examples. Yours, of course, will be named differently.
 
 ## Deadline
 
-Your Canvas submission is due at or before 11:59pm on your section-specific due date.
-* October 9, 2018 (A 3/4 & 7/8)
-* October 10, 2018 (B 3/4 & 7/8)
+Your Canvas submission is due at or before 11:59pm on October 21, 2018. Please make sure you verify how many grace days you have remaining for the first marking period.
 
 ### Submission Requirements
 
