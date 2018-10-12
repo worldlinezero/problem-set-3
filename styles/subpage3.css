@@ -1,6 +1,10 @@
 body {
-
 }
+
+h1 {
+  font-family: "Exodus-Sharpened"
+}
+
 hr {
     border: none;
     border-top: 3px double #333;
@@ -12,8 +16,13 @@ hr {
 
 hr:after {
     background: #fff;
-    content: '§';
+    content: '☁';
     padding: 0 4px;
     position: relative;
     top: -13px;
+}
+
+@font-face {
+  font-family: "Exodus Sharpened";
+  src: local("..problem-set-3/styles/fonts/Exodus-PersonalUse-Sharpen.woff) format("woff");
 }
