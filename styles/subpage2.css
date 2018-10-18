@@ -1,7 +1,18 @@
+* {
+  color: #6666ff;
+}
+
 background {
   background-color: dimgray;
 }
 
+nav {
+  background-color: #2764b2
+  border: 50
+}
+nav:hover{
+
+}
 p {
 
 }
@@ -10,7 +21,7 @@ body {
 }
 
 h1 {
-  font-family: "Exodus-Sharpened"
+  font-family: "Chakra Petch"
 }
 
 hr {
@@ -30,6 +41,16 @@ hr:after {
     top: -13px;
 }
 
+img {
+  border-radius: 10px
+}
+td < tbody {
+  font-family: 'Chakra Petch'
+}
+
+a:visited {
+  color:
+}
 table, th, td {
   border: 5px double deepskyblue}
 
@@ -42,7 +63,7 @@ table, th, td {
   }
 
   .Yellow {
-    color:yellow
+    color: #e5e500
   }
 
   .Orange {

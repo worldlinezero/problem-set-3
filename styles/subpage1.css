@@ -1,3 +1,7 @@
+* {
+  color: #9494ff;
+}
+
 background {
   background-color: lavender;
 }
@@ -10,7 +14,7 @@ body {
 }
 
 h1 {
-  font-family: "Exodus-Sharpened"
+  font-family: "Chakra Petch"
 }
 
 hr {
@@ -20,7 +24,6 @@ hr {
     overflow: visible;
     text-align: center;
     height: 5px;
-    background-color: dimgray;
 }
 
 hr:after {
@@ -31,7 +34,11 @@ hr:after {
     top: -13px;
 }
 
+img {
+  border-radius: 10px
+}
+
 @font-face {
-  font-family: ("Exodus Sharpened")
-  src: local("..problem-set-3/styles/fonts/Exodus-PersonalUse-Sharpen.woff) format("woff");
+  font-family: ("Exodus Sharpen")
+  src: local("..problem-set-3.5/styles/fonts/Exodus Sharpen) format("opentype");
 }

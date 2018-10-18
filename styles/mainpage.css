@@ -1,3 +1,7 @@
+* {
+  color: #3893e8;
+}
+
 background {
   background-color: lavender;
 }
@@ -10,17 +14,16 @@ body {
 }
 
 h1 {
-  font-family: "Exodus-Sharpened"
+  font-family: "Chakra Petch"
 }
 
 hr {
     border: none;
     border-top: 3px double deepskyblue;
-    color: deepskyblue;
+    color: #004040;
     overflow: visible;
     text-align: center;
     height: 5px;
-    background-color: dimgray;
 }
 
 hr:after {
@@ -29,6 +32,10 @@ hr:after {
     padding: 8px;
     position: relative;
     top: -13px;
+}
+
+img {
+  border-radius: 10px
 }
 
 @font-face {
