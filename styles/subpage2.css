@@ -1,3 +1,11 @@
+background {
+  background-color: dimgray;
+}
+
+p {
+
+}
+
 body {
 }
 
@@ -7,8 +15,8 @@ h1 {
 
 hr {
     border: none;
-    border-top: 3px double #333;
-    color: #333;
+    border-top: 3px double deepskyblue;
+    color: deepskyblue;
     overflow: visible;
     text-align: center;
     height: 5px;
@@ -17,12 +25,39 @@ hr {
 hr:after {
     background: #fff;
     content: '☁';
-    padding: 0 4px;
+    padding: 8px;
     position: relative;
     top: -13px;
 }
 
+table, th, td {
+  border: 5px double deepskyblue}
+
+  .Green {
+    color:lime
+  }
+
+  .lightGreen {
+    color:greenyellow
+  }
+
+  .Yellow {
+    color:yellow
+  }
+
+  .Orange {
+    color:orangered
+  }
+
+  .darkOrange {
+    color:chocolate
+  }
+
+  .darkRed {
+    color:maroon
+  }
+
 @font-face {
-  font-family: "Exodus Sharpened";
+  font-family: ("Exodus Sharpened")
   src: local("..problem-set-3/styles/fonts/Exodus-PersonalUse-Sharpen.woff) format("woff");
 }

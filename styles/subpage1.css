@@ -1,3 +1,11 @@
+background {
+  background-color: lavender;
+}
+
+p {
+
+}
+
 body {
 }
 
@@ -7,22 +15,23 @@ h1 {
 
 hr {
     border: none;
-    border-top: 3px double #333;
-    color: #333;
+    border-top: 3px double deepskyblue;
+    color: deepskyblue;
     overflow: visible;
     text-align: center;
     height: 5px;
+    background-color: dimgray;
 }
 
 hr:after {
     background: #fff;
     content: '☁';
-    padding: 0 4px;
+    padding: 8px;
     position: relative;
     top: -13px;
 }
 
 @font-face {
-  font-family: "Exodus Sharpened";
+  font-family: ("Exodus Sharpened")
   src: local("..problem-set-3/styles/fonts/Exodus-PersonalUse-Sharpen.woff) format("woff");
 }
