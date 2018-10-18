@@ -83,6 +83,7 @@ To avoid confusion, your directory structure must match the following. If someth
 ```
 problem-set-3/
    images/
+<<<<<<< HEAD
       kitchen.png
       meals/
          pasta.png
@@ -100,6 +101,25 @@ Of course, your filenames will be different than mine. They are alphabetized, so
 ## Deadline
 
 Your Canvas submission is due at or before 11:59pm on **Sunday, October 21, 2018**. Please make sure you verify how many grace days you have remaining for this marking period.
+=======
+      myimage1.png
+      subfolder/
+         myimage2.png
+   index.html
+   mysubtopic1.html
+   mysubtopic2.html
+   mysubtopic3.html
+   README.md
+```
+
+Of course, your filenames will be different than mine. They are alphabetized, so they will likely appear in a different order, too. The `subfolder` inside of the `images` folder is optional. You might find it useful to further categorize your pictures, but it is not required. The image files inside of the `images` and `subfolder` folders are examples. Yours, of course, will be named differently.
+
+## Deadline
+
+Your Canvas submission is due at or before 11:59pm on your section-specific due date.
+* October 9, 2018 (A 3/4 & 7/8)
+* October 10, 2018 (B 3/4 & 7/8)
+>>>>>>> d8e9f67236bfd1e71df409705d35cd2de6f55bdd
 
 ### Submission Requirements
 
