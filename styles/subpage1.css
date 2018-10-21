@@ -6,15 +6,39 @@ background {
   background-color: lavender;
 }
 
-p {
+a[href*="ucvts"] {
+  font-style: italic
+}
 
+a[jref*="nephobiology"] {
+  font-style: bold;
+}
+
+a:hover {
+  color: tomato;
+}
+
+h1, h4, h5 {
+  font-family: 'Chakra Petch';
+  text-decoration: underline;
+}
+
+p {
+  font: arial;
+  font-family: sans-serif;
+}
+
+p:first-of-type {
+  font-style: oblique;
+}
+
+p:last-of-type {
+  font-style: italic
 }
 
 body {
-}
-
-h1 {
-  font-family: "Chakra Petch"
+  font-weight: bold;
+  font-size: 12pt
 }
 
 hr {
@@ -35,10 +59,8 @@ hr:after {
 }
 
 img {
-  border-radius: 10px
-}
-
-@font-face {
-  font-family: ("Exodus Sharpen")
-  src: local("..problem-set-3.5/styles/fonts/Exodus Sharpen) format("opentype");
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }

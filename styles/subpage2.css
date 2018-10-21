@@ -6,22 +6,48 @@ background {
   background-color: dimgray;
 }
 
-nav {
-  background-color: #2764b2
-  border: 50
+a[href*="ucvts"] {
+  font-style: italic;
 }
-nav:hover{
 
+a[href*="behaviour"] {
+  font-style: oblique;
 }
+
+a[jref*="nephobiology"] {
+  font-style: bold;
+}
+
+#onlyImage1 {
+  max-width: 100%;
+  height: auto;
+}
+
+a:hover {
+  color: crimson;
+}
+
+h1, h4, h5 {
+  font-family: 'Chakra Petch';
+  text-decoration: underline;
+}
+
 p {
+  font: arial;
+  font-family: sans-serif;
+}
 
+p:first-of-type {
+  font-style: oblique;
+}
+
+p:last-of-type {
+  font-style: italic
 }
 
 body {
-}
-
-h1 {
-  font-family: "Chakra Petch"
+  font-weight: bold;
+  font-size: 12pt
 }
 
 hr {
@@ -42,8 +68,12 @@ hr:after {
 }
 
 img {
-  border-radius: 10px
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
+
 td < tbody {
   font-family: 'Chakra Petch'
 }
@@ -77,8 +107,3 @@ table, th, td {
   .darkRed {
     color:maroon
   }
-
-@font-face {
-  font-family: ("Exodus Sharpened")
-  src: local("..problem-set-3/styles/fonts/Exodus-PersonalUse-Sharpen.woff) format("woff");
-}
