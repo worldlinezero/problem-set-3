@@ -2,8 +2,8 @@
   color: #6666ff;
 }
 
-background {
-  background-color: dimgray;
+html {
+  background-color: PaleTurquoise;
 }
 
 a[href*="ucvts"] {
@@ -14,13 +14,16 @@ a[href*="behaviour"] {
   font-style: oblique;
 }
 
-a[jref*="nephobiology"] {
+a[href*="nephobiology"] {
   font-style: bold;
 }
 
 #onlyImage1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 100%;
   max-width: 100%;
-  height: auto;
 }
 
 a:hover {
@@ -30,6 +33,7 @@ a:hover {
 h1, h4, h5 {
   font-family: 'Chakra Petch';
   text-decoration: underline;
+  text-align: center;
 }
 
 p {
@@ -53,14 +57,14 @@ body {
 hr {
     border: none;
     border-top: 3px double deepskyblue;
-    color: deepskyblue;
+    color: #004040;
     overflow: visible;
     text-align: center;
     height: 5px;
 }
 
 hr:after {
-    background: #fff;
+    background: paleturquoise;
     content: '☁';
     padding: 8px;
     position: relative;
@@ -106,4 +110,8 @@ table, th, td {
 
   .darkRed {
     color:maroon
+  }
+
+  .footer {
+    text-align: center;
   }
